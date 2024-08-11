@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; //Importa o pacote de para escanear a leitura no terminal
 
 public class scanner {
     public static void main(String[] args) {

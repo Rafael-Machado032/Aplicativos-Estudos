@@ -81,7 +81,8 @@
     "java.project.sourcePaths": [
         "Entrada de dados",
         "Operadores logicos",
-        "Loops"
+        "Loops",
+        "Array"
     ],
     "java.project.referencedLibraries": []
 }

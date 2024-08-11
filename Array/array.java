@@ -29,12 +29,12 @@ public class array {
         char[] gabarito = {'a','a','d','b','c'};
         char[] resposta = new char[gabarito.length];
         int nota = 0;
-        Scanner scan = new Scanner(System.in);
+        try (Scanner scan = new Scanner(System.in)) {
+            for (int i = 0; i < gabarito.length; i++) {
+                System.out.printf("Digite a resposta da questão %d: ", i);
+                resposta[i] = scan.nextLine().charAt(0);
 
-        for (int i = 0; i < gabarito.length; i++) {
-            System.out.printf("Digite a resposta da questão %d: ", i);
-            resposta[i] = scan.nextLine().charAt(0);
-
+            }
         }
 
         for (int i = 0; i < gabarito.length; i++) {
